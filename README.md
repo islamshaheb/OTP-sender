@@ -4,7 +4,7 @@ For running this code you need to install Node Js in your machine.
 For installing NodeJs in your local machine Just go [this Website ](https://nodejs.org/en/download/ "NodeJS") and download and install it..
 
 After installation, you need to download this full repo on your local machine.
-Additional library, the package is required. See the `package.json` file for detailed information.
+Additional library,packages need to be installed. See the `package.json` file for detailed information.
 
 Now. use the 'npm start` command to start the project.
 
