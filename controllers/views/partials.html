@@ -1,0 +1,30 @@
+<!-- @format -->
+<!-- /*
+ * Title: Post_mail page
+ * Description: For receiving details from web page
+ * Author: 
+ * Date: 6/27/2021
+ *
+ */ -->
+
+<h1 class="dispaly-4 mb-4">Give necessary Inforamtion</h1>
+<form method="POST" action="/postemail" style="margin-right: 40%">
+  <div class="form-group">
+    <input name="name" type="text" class="form-control form-control-lg" placeholder="Add name" />
+  </div>
+  <br />
+  <div class="form-group">
+    <input name="email" type="email" class="form-control form-control-lg" placeholder="Add Email" />
+  </div>
+  <br />
+  <div class="form-group">
+    <input
+      name="purpose"
+      type="text"
+      class="form-control form-control-lg"
+      placeholder="your purpose"
+    />
+  </div>
+  <input type="submit" value="submit" class="btn btn-dark btn-lg" />
+  <a href="/postemail" class="btn btn-danger btn-lg"> Refresh</a>
+</form>

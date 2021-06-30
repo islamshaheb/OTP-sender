@@ -1,0 +1,31 @@
+{
+  "name": "sendgrid-adapter",
+  "version": "1.0.0",
+  "description": "wallet service",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^2.5.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "moment": "^2.22.1",
+    "mongoose": "^5.12.15",
+    "nodemailer": "^6.6.2",
+    "useragent": "^2.2.1",
+    "uuid": "^3.4.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": ""
+}
